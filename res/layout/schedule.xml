@@ -1,0 +1,97 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+
+<LinearLayout 
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e74c3c"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#d94839"
+        android:textColor="#FFFFFF"
+        android:padding="30dp"
+        android:gravity="center"
+        android:text="Schedule"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/my_btn"
+            android:text="Engineer"
+             />
+        <Button
+            android:id="@+id/btn2"
+            style="@style/my_btn"
+            android:text="Teacher"
+             />
+        <Button
+            android:id="@+id/btn3"
+            style="@style/my_btn"
+            android:text="Doctor"
+             />
+        <Button
+            android:id="@+id/btn4"
+            style="@style/my_btn"
+            android:text="Student"
+             />
+        <Button
+            android:id="@+id/btn5"
+            style="@style/my_btn"
+            android:text="Bussinessman"
+             />
+        <Button
+            android:id="@+id/btn6"
+            style="@style/my_btn"
+            android:text="Farmer"
+            />
+        <Button
+            android:id="@+id/btn7"
+            style="@style/my_btn"
+            android:text="Shopkeeper"
+            />
+        <Button
+            android:id="@+id/btn8"
+            style="@style/my_btn"
+            android:text="Housewife"
+            />
+        <Button
+            android:id="@+id/btn9"
+            style="@style/my_btn"
+            android:text="Officer"
+            />
+        <Button
+            android:id="@+id/btn10"
+            style="@style/my_btn"
+            android:text="Other"
+            />
+        
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</FrameLayout>

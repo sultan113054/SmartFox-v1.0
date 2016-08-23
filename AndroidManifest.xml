@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.special.SmartFox"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="MenuActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="Account"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="Transfer"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="Budget"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+                        <activity
+            android:name="Income"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+                <activity
+            android:name="Expense"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+                <activity
+            android:name="Planning"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+                <activity
+            android:name="Chart"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+                <activity
+            android:name="Limit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="HelpSlider"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity android:name="DBtest" >
+        </activity>
+        <activity
+            android:name="main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay1"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay3"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay4"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay5"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay6"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay7"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay8"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay9"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+        <activity
+            android:name="lay10"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" >
+        </activity>
+    </application>
+
+</manifest>
